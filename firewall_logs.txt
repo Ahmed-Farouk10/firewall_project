@@ -1,0 +1,825 @@
+2024-12-30 02:41:19,681 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:44:30,273 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:50:12,882 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:57:12,340 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:57:25,007 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:57:41,992 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:58:05,990 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:59:02,541 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 02:59:05,989 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:02:01,459 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:02:10,984 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:02:44,063 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:03:25,845 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:04:02,550 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:04:32,998 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:04:35,520 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:04:37,516 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:04:39,553 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:05:33,112 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:07:56,444 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:08:33,442 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:08:37,498 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:09:01,272 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:09:05,580 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:09:15,472 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:09:31,167 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:09:45,645 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:10:06,200 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:10:43,442 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:11:27,376 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:12:03,405 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:13:04,973 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
+2024-12-30 03:21:40,229 - Error: Packet sniffer error: Interface 'eth0' does not exist, unable to initiate capture. Perhaps permissions are missing?
+Possible interfaces: \Device\NPF_{0F2B08FF-FDAB-4609-86F5-56764D49008F}
+Local Area Connection* 10
+\Device\NPF_{71A6BC8A-D65C-4CCF-B24B-6E59E2A391B1}
+Local Area Connection* 9
+\Device\NPF_{A3FACE88-E107-45A4-A0DE-02DCBF3A293E}
+Local Area Connection* 8
+\Device\NPF_{4AAB9A59-32C2-4ADC-BE87-2ABDD1BD5858}
+Bluetooth Network Connection
+\Device\NPF_{6CA496AE-1DC6-496F-9332-9B22D3BB2387}
+Wi-Fi
+\Device\NPF_{D8102FF5-FBBC-442F-BCF0-4CF09797B935}
+VMware Network Adapter VMnet8
+\Device\NPF_{FEABC2C3-E539-4F6C-BF61-7AECBF2A1AB4}
+VMware Network Adapter VMnet1
+\Device\NPF_{1859365E-DF00-4624-8862-6A59F8F0C7E6}
+Ethernet
+\Device\NPF_{783316AD-29E2-4CE2-A53D-FC1D8CC89E1F}
+Local Area Connection* 2
+\Device\NPF_{DC77A841-69C1-4547-B14A-F4D45856EE39}
+Local Area Connection* 1
+\Device\NPF_Loopback
+Adapter for loopback traffic capture
+etwdump
+Event Tracing for Windows (ETW) reader
