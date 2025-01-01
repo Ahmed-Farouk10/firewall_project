@@ -1,8 +1,17 @@
 {
-    "blacklist": ["192.168.1.10", "10.0.0.5"],
+    "blacklist": [
+        "192.168.12",
+        "192.168.1.12"
+    ],
     "log_file": "firewall_logs.txt",
     "alert_threshold": 50,
-    "allowed_protocols": ["HTTP", "DNS", "FTP"],
-    "ssl_cert": "path/to/certificate.crt"
-  }
-  
+    "allowed_protocols": [
+        "HTTP",
+        "DNS",
+        "FTP"
+    ],
+    "ssl_cert": "path/to/certificate.crt",
+    "whitelist": [
+        "172.64.155.209"
+    ]
+}
