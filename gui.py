@@ -196,7 +196,7 @@ class FirewallGUI:
         """Simulates packet sniffing."""
         loop = asyncio.new_event_loop()  # Create a new event loop for the sniffer thread
         asyncio.set_event_loop(loop)  # Set this loop for the current thread
-        capture = LiveCapture(interface="Ethernet")
+        capture = LiveCapture(interface="Wi-Fi")
 
         print("Packet Sniffer started...")
         try:

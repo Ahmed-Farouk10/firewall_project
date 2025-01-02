@@ -1,8 +1,26 @@
 {
-  "blacklist": ["192.168.1.10", "10.0.0.5", "192.168.1.12", "172.64.155.209"],
-  "whitelist": ["192.168.1.12", "172.64.155.209"],
-  "log_file": "firewall_logs.txt",
-  "alert_threshold": 200,
-  "allowed_protocols": ["HTTP", "DNS", "FTP", "HTTPS", "SMTP"],
-  "ssl_cert": "path/to/certificate.crt"
+    "blacklist": [
+        "192.168.1.10",
+        "10.0.0.5",
+        "192.168.1.12"
+    ],
+    "whitelist": [
+        "172.64.155.209"
+    ],
+    "log_file": "firewall_logs.txt",
+    "alert_threshold": 200,
+    "allowed_protocols": [
+        "DNS",
+        "FTP",
+        "HTTPS",
+        "SMTP",
+        "SSH",
+        "POP3",
+        "IMAP"
+    ],
+    "ssl_cert": "ssl/ecdsa_certificate.pem",
+    "ssl_key": "ssl/ecdsa_private_key.pem",
+    "logging_level": "INFO",
+    "packet_inspection_mode": "deep",
+    "traffic_monitoring": true
 }
