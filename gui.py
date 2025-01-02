@@ -5,6 +5,7 @@ import threading
 import asyncio
 from pyshark import LiveCapture
 import logging
+import time
 
 CONFIG_FILE = "config.json"
 
@@ -62,36 +63,47 @@ class FirewallGUI:
         self.whitelist_box = tk.Listbox(self.frame, height=10, width=40)
         self.whitelist_box.grid(row=1, column=1, padx=5, pady=5)
 
-        # Packet details display
+        # Logs display
+        self.log_details_label = tk.Label(self.frame, text="Firewall Logs", font=("Arial", 14))
+        self.log_details_label.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
+
+        self.log_details_box = tk.Text(self.frame, height=10, width=80)
+        self.log_details_box.grid(row=3, column=0, columnspan=2, padx=5, pady=5)
+
+        # Packet Details section
         self.packet_details_label = tk.Label(self.frame, text="Packet Details", font=("Arial", 14))
-        self.packet_details_label.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
+        self.packet_details_label.grid(row=4, column=0, columnspan=2, padx=5, pady=5)
 
         self.packet_details_box = tk.Text(self.frame, height=10, width=80)
-        self.packet_details_box.grid(row=3, column=0, columnspan=2, padx=5, pady=5)
+        self.packet_details_box.grid(row=5, column=0, columnspan=2, padx=5, pady=5)
 
         # Buttons to add/remove IPs
         self.add_to_blacklist_btn = tk.Button(self.frame, text="Add to Blacklist", command=self.add_to_blacklist)
-        self.add_to_blacklist_btn.grid(row=4, column=0, padx=5, pady=5)
+        self.add_to_blacklist_btn.grid(row=6, column=0, padx=5, pady=5)
 
         self.remove_from_blacklist_btn = tk.Button(self.frame, text="Remove from Blacklist", command=self.remove_from_blacklist)
-        self.remove_from_blacklist_btn.grid(row=5, column=0, padx=5, pady=5)
+        self.remove_from_blacklist_btn.grid(row=7, column=0, padx=5, pady=5)
 
         self.add_to_whitelist_btn = tk.Button(self.frame, text="Add to Whitelist", command=self.add_to_whitelist)
-        self.add_to_whitelist_btn.grid(row=4, column=1, padx=5, pady=5)
+        self.add_to_whitelist_btn.grid(row=6, column=1, padx=5, pady=5)
 
         self.remove_from_whitelist_btn = tk.Button(self.frame, text="Remove from Whitelist", command=self.remove_from_whitelist)
-        self.remove_from_whitelist_btn.grid(row=5, column=1, padx=5, pady=5)
+        self.remove_from_whitelist_btn.grid(row=7, column=1, padx=5, pady=5)
 
         # Start and Stop Packet Sniffer
         self.start_sniffer_btn = tk.Button(self.frame, text="Start Sniffer", command=self.start_sniffer)
-        self.start_sniffer_btn.grid(row=6, column=0, padx=5, pady=5)
+        self.start_sniffer_btn.grid(row=8, column=0, padx=5, pady=5)
 
         self.stop_sniffer_btn = tk.Button(self.frame, text="Stop Sniffer", command=self.stop_sniffer)
-        self.stop_sniffer_btn.grid(row=6, column=1, padx=5, pady=5)
+        self.stop_sniffer_btn.grid(row=8, column=1, padx=5, pady=5)
 
         # Update the listboxes with current data
         self.update_blacklist()
         self.update_whitelist()
+
+        # Sniffer thread control
+        self.sniffer_thread = None
+        self.sniffer_running = False
 
     def update_blacklist(self):
         """Updates the blacklist listbox."""
@@ -158,13 +170,19 @@ class FirewallGUI:
 
     def start_sniffer(self):
         """Starts packet sniffer in a separate thread."""
-        self.sniffer_thread = threading.Thread(target=self.sniff_packets)
-        self.sniffer_thread.daemon = True
-        self.sniffer_thread.start()
+        if not self.sniffer_running:
+            self.sniffer_running = True
+            self.sniffer_thread = threading.Thread(target=self.sniff_packets)
+            self.sniffer_thread.daemon = True
+            self.sniffer_thread.start()
 
     def stop_sniffer(self):
         """Stops the packet sniffer."""
-        print("Packet Sniffer Stopped.")
+        if self.sniffer_running:
+            self.sniffer_running = False
+            print("Packet Sniffer Stopped.")
+            self.packet_details_box.insert(tk.END, "Packet Sniffer Stopped.\n")
+            self.packet_details_box.yview(tk.END)
 
     def sniff_packets(self):
         """Simulates packet sniffing."""
@@ -175,6 +193,8 @@ class FirewallGUI:
         print("Packet Sniffer started...")
         try:
             for packet in capture.sniff_continuously():
+                if not self.sniffer_running:
+                    break  # Exit the loop if sniffer is stopped
                 if hasattr(packet, "ip"):
                     self.inspect_packet(packet)
         except KeyboardInterrupt:
@@ -185,29 +205,33 @@ class FirewallGUI:
     def inspect_packet(self, packet):
         """Inspects and logs packets."""
         src_ip = packet.ip.src
-        dst_ip = packet.ip.dst
-        protocol = packet.transport_layer
-
-        # Update the packet details text box
-        packet_details = f"Source: {src_ip}, Destination: {dst_ip}, Protocol: {protocol}"
-        self.packet_details_box.insert(tk.END, packet_details + "\n")
-        self.packet_details_box.yview(tk.END)
 
         # Log the packet action (Allowed/Blocked)
         if src_ip in BLACKLIST:
             print(f"Blocked: Packet from blacklisted IP {src_ip}")
-            self.log_packet_action("Blocked", src_ip, dst_ip, protocol)
+            self.log_packet_action("Blocked", src_ip)
         elif src_ip in WHITELIST:
             print(f"Allowed: Packet from whitelisted IP {src_ip}")
-            self.log_packet_action("Allowed", src_ip, dst_ip, protocol)
+            self.log_packet_action("Allowed", src_ip)
         else:
             print(f"Allowed: Packet from {src_ip}")
-            self.log_packet_action("Allowed", src_ip, dst_ip, protocol)
+            self.log_packet_action("Allowed", src_ip)
 
-    def log_packet_action(self, action, src_ip, dst_ip, protocol):
+        # Display the packet details in the 'Packet Details' box
+        packet_details = f"Packet from {src_ip}\n"
+        packet_details += f"Protocol: {packet.highest_layer}\n"
+        packet_details += f"Length: {packet.length} bytes\n\n"
+        self.packet_details_box.insert(tk.END, packet_details)
+        self.packet_details_box.yview(tk.END)
+
+    def log_packet_action(self, action, src_ip):
         """Logs the action taken on a packet (allowed/blocked)."""
-        log_message = f"{action}: Source IP {src_ip}, Destination IP {dst_ip}, Protocol {protocol}"
+        log_message = f"{action}: Packet from {src_ip}"
         logging.info(log_message)
+
+        # Display log in the GUI's log details box
+        self.log_details_box.insert(tk.END, log_message + "\n")
+        self.log_details_box.yview(tk.END)
 
 # Running the GUI
 if __name__ == "__main__":
