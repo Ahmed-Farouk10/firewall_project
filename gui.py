@@ -5,7 +5,7 @@ import threading
 import asyncio
 from pyshark import LiveCapture
 import logging
-import time
+from PIL import Image, ImageTk
 
 CONFIG_FILE = "config.json"
 
@@ -47,54 +47,62 @@ class FirewallGUI:
         self.root = root
         self.root.title("Firewall Management")
 
-        self.frame = tk.Frame(self.root)
+        # Load background image
+        self.bg_image = Image.open("Assets/Image/background2.jpeg")
+        self.bg_image = self.bg_image.resize((root.winfo_screenwidth(), root.winfo_screenheight()), Image.LANCZOS)
+        self.bg_photo = ImageTk.PhotoImage(self.bg_image)
+        
+        self.bg_label = tk.Label(self.root, image=self.bg_photo)
+        self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)  # Set background to full window
+
+        self.frame = tk.Frame(self.root, bg="#F5F5F5", bd=10)
         self.frame.pack(padx=20, pady=20)
 
         # Listboxes for displaying blacklist and whitelist
-        self.blacklist_label = tk.Label(self.frame, text="Blacklist", font=("Arial", 14))
+        self.blacklist_label = tk.Label(self.frame, text="Blacklist", font=("Helvetica", 14, "bold"), fg="white", bg="#2A3D4A")
         self.blacklist_label.grid(row=0, column=0, padx=5, pady=5)
 
-        self.blacklist_box = tk.Listbox(self.frame, height=10, width=40)
+        self.blacklist_box = tk.Listbox(self.frame, height=10, width=40, font=("Helvetica", 12), bd=2, relief="solid", bg="#f0f0f0", selectmode=tk.SINGLE)
         self.blacklist_box.grid(row=1, column=0, padx=5, pady=5)
 
-        self.whitelist_label = tk.Label(self.frame, text="Whitelist", font=("Arial", 14))
+        self.whitelist_label = tk.Label(self.frame, text="Whitelist", font=("Helvetica", 14, "bold"), fg="white", bg="#2A3D4A")
         self.whitelist_label.grid(row=0, column=1, padx=5, pady=5)
 
-        self.whitelist_box = tk.Listbox(self.frame, height=10, width=40)
+        self.whitelist_box = tk.Listbox(self.frame, height=10, width=40, font=("Helvetica", 12), bd=2, relief="solid", bg="#f0f0f0", selectmode=tk.SINGLE)
         self.whitelist_box.grid(row=1, column=1, padx=5, pady=5)
 
         # Logs display
-        self.log_details_label = tk.Label(self.frame, text="Firewall Logs", font=("Arial", 14))
+        self.log_details_label = tk.Label(self.frame, text="Firewall Logs", font=("Helvetica", 14, "bold"), fg="white", bg="#2A3D4A")
         self.log_details_label.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
-        self.log_details_box = tk.Text(self.frame, height=10, width=80)
+        self.log_details_box = tk.Text(self.frame, height=10, width=80, font=("Helvetica", 12), bd=2, relief="solid", wrap=tk.WORD, bg="#f0f0f0", padx=10, pady=10)
         self.log_details_box.grid(row=3, column=0, columnspan=2, padx=5, pady=5)
 
         # Packet Details section
-        self.packet_details_label = tk.Label(self.frame, text="Packet Details", font=("Arial", 14))
+        self.packet_details_label = tk.Label(self.frame, text="Packet Details", font=("Helvetica", 14, "bold"), fg="white", bg="#2A3D4A")
         self.packet_details_label.grid(row=4, column=0, columnspan=2, padx=5, pady=5)
 
-        self.packet_details_box = tk.Text(self.frame, height=10, width=80)
+        self.packet_details_box = tk.Text(self.frame, height=10, width=80, font=("Helvetica", 12), bd=2, relief="solid", wrap=tk.WORD, bg="#f0f0f0", padx=10, pady=10)
         self.packet_details_box.grid(row=5, column=0, columnspan=2, padx=5, pady=5)
 
         # Buttons to add/remove IPs
-        self.add_to_blacklist_btn = tk.Button(self.frame, text="Add to Blacklist", command=self.add_to_blacklist)
+        self.add_to_blacklist_btn = tk.Button(self.frame, text="Add to Blacklist", command=self.add_to_blacklist, font=("Helvetica", 12), bg="#4CAF50", fg="white", relief="raised", bd=3, padx=10, pady=5)
         self.add_to_blacklist_btn.grid(row=6, column=0, padx=5, pady=5)
 
-        self.remove_from_blacklist_btn = tk.Button(self.frame, text="Remove from Blacklist", command=self.remove_from_blacklist)
+        self.remove_from_blacklist_btn = tk.Button(self.frame, text="Remove from Blacklist", command=self.remove_from_blacklist, font=("Helvetica", 12), bg="#F44336", fg="white", relief="raised", bd=3, padx=10, pady=5)
         self.remove_from_blacklist_btn.grid(row=7, column=0, padx=5, pady=5)
 
-        self.add_to_whitelist_btn = tk.Button(self.frame, text="Add to Whitelist", command=self.add_to_whitelist)
+        self.add_to_whitelist_btn = tk.Button(self.frame, text="Add to Whitelist", command=self.add_to_whitelist, font=("Helvetica", 12), bg="#4CAF50", fg="white", relief="raised", bd=3, padx=10, pady=5)
         self.add_to_whitelist_btn.grid(row=6, column=1, padx=5, pady=5)
 
-        self.remove_from_whitelist_btn = tk.Button(self.frame, text="Remove from Whitelist", command=self.remove_from_whitelist)
+        self.remove_from_whitelist_btn = tk.Button(self.frame, text="Remove from Whitelist", command=self.remove_from_whitelist, font=("Helvetica", 12), bg="#F44336", fg="white", relief="raised", bd=3, padx=10, pady=5)
         self.remove_from_whitelist_btn.grid(row=7, column=1, padx=5, pady=5)
 
         # Start and Stop Packet Sniffer
-        self.start_sniffer_btn = tk.Button(self.frame, text="Start Sniffer", command=self.start_sniffer)
+        self.start_sniffer_btn = tk.Button(self.frame, text="Start Sniffer", command=self.start_sniffer, font=("Helvetica", 12), bg="#4CAF50", fg="white", relief="raised", bd=3, padx=10, pady=5)
         self.start_sniffer_btn.grid(row=8, column=0, padx=5, pady=5)
 
-        self.stop_sniffer_btn = tk.Button(self.frame, text="Stop Sniffer", command=self.stop_sniffer)
+        self.stop_sniffer_btn = tk.Button(self.frame, text="Stop Sniffer", command=self.stop_sniffer, font=("Helvetica", 12), bg="#F44336", fg="white", relief="raised", bd=3, padx=10, pady=5)
         self.stop_sniffer_btn.grid(row=8, column=1, padx=5, pady=5)
 
         # Update the listboxes with current data
